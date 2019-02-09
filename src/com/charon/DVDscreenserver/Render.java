@@ -122,8 +122,10 @@ public class Render extends JPanel{
         g.fillRect(0, 0, (int)Mainclass.getWindowW(), (int)Mainclass.getWindowH());
         g.setColor(new Color(255, 255, 255, 255));
         g.setFont(new Font("Arial", Font.PLAIN, 15));
-        g.drawString("Hit : " + String.valueOf(hit), 10, 15);
-        g.drawString("Corner Hit : " + String.valueOf(cornerHit), 10, 30);
+        if (Mainclass.getTextEnable()==true) {
+            g.drawString("Hit : " + String.valueOf(hit), 10, 15);
+            g.drawString("Corner Hit : " + String.valueOf(cornerHit), 10, 30);
+        }
         dvd.draw(g);
 
     }
