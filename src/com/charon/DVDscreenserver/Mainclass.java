@@ -41,7 +41,7 @@ public class Mainclass {
          * setSpeed(speed);
          * ========================
          */
-        setSpeed(1000);
+        setSpeed(60);
         
         /*
          * ========================
