@@ -58,7 +58,7 @@ public class Mainclass {
          * setTextEnable(true|false);
          * 
          */
-        setTextEnable(false);
+        setTextEnable(true);
         
         app.init();
     }
